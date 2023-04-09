@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+
+.nav-link .active{
+  background-color: aliceblue;
+  color: #ffff;
+  border-radius: 5px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 32px;
+  margin-left: 40px;
+  border: 1px solid #282c34;
+}
